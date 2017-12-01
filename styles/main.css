@@ -1278,7 +1278,7 @@ margin-top:1.6rem
 }
 @media (min-width: 48em){
 .t-eyebrow-a{
-font-size:1.5rem
+font-size:3rem
 }
 
 }
@@ -4694,7 +4694,7 @@ font-size:62px;
 font-size:6.2rem;
 letter-spacing:6px;
 text-transform:uppercase;
-color:#4ac1b4;
+color:#455155;
 z-index:1;
 pointer-events:none;
 position:relative
@@ -5531,7 +5531,7 @@ display:none
 background:#4ac1b4
 }
 .main-nav__link--careers a{
-background:#c5a35f;
+background:#7cae0d;
 color:white
 }
 .main-nav__link--careers a:hover{
