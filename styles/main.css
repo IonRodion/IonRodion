@@ -1272,7 +1272,7 @@ font-size:1.3rem
 .t-eyebrow-a{
 font-family:"MarkWebPro-Black W01 Regular",Helvetica,Arial,Sans-serif;
 font-size:12px;
-font-size:1.2rem;
+font-size:3.2rem;
 text-transform:uppercase;
 letter-spacing:1.5px;
 line-height:1.2
@@ -4698,8 +4698,8 @@ color:#465256
 .home-stt{
 font-family:"MarkWebPro-Black W01 Regular",Helvetica,Arial,Sans-serif;
 font-size:62px;
-font-size:6.2rem;
-letter-spacing:6px;
+font-size:3.2rem;
+letter-spacing:1px;
 text-transform:uppercase;
 color:#455155;
 z-index:1;
