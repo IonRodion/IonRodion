@@ -2906,7 +2906,7 @@ padding-left:0
 }
 .l-site-header__logo{
 max-width:200px;
-max-width:18.6rem
+max-width:35rem
 }
 .l-site-header__logo svg{
 width:100%;
@@ -4745,6 +4745,15 @@ animation-delay:1.25s
 .home-stt span:nth-child(3){
 -webkit-animation-delay:1.5s;
 animation-delay:1.5s
+}
+
+	.logo_1 {
+	white-space: nowrap;
+	margin-left: 65px;
+    margin-top: -53px;
+    font-size: large;
+	color: #455155;
+
 }
 
 }
