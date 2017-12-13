@@ -1240,9 +1240,34 @@
       <div class="rich-text h-triangle-above">
         <p>ООО «Камтехавтоматика» осуществляет постгарантийное обслуживание поставленного оборудования, которое проводится на основании договора, заключенного между предприятием и Заказчиком.</p>
 
-                   <a href="#" class="btn btn--space-above">
+                  
+                  <script type="text/javascript">
+
+					//Функция показа
+			function show(state){
+
+					document.getElementById('window').style.display = state;			
+					document.getElementById('wrap').style.display = state; 			
+			}
+			
+		</script>
+					<!-- Задний прозрачный фон-->
+		<div onclick="show('none')" id="wrap"></div>
+
+					<!-- Само окно-->
+			<div id="window">
+						
+						 <!-- Картинка крестика-->
+				<img class="close" onclick="show('none')" src="http://sergey-oganesyan.ru/wp-content/uploads/2014/01/close.png">
+					
+						<!-- Картинка ipad'a-->
+				<p class="text_modal">
+				Особая форма сервисного обслуживания ранее приобретенного у торговой организации оборудования, которое далеко не всегда входит в стандартные обязательства перед покупателями у некоторых компаний.
+				</p>
+			</div>
+          <button href="#myButton" class="btn btn--space-above" onclick="show('block')">
             <span>Участвовать</span>
-          </a> 
+          </button> 
               </div>
     </div>
     <div class="l-side-by-side__photo">
@@ -1573,9 +1598,34 @@
       	Разработка Проектно-Сметной Документации.
 
       </ul>
-              <a href="#" class="btn btn--reverse btn--space-above">
+          		<script type="text/javascript">
+
+					//Функция показа
+			function show(state){
+
+					document.getElementById('window').style.display = state;			
+					document.getElementById('wrap').style.display = state; 			
+			}
+			
+		</script>
+					<!-- Задний прозрачный фон-->
+		<div onclick="show('none')" id="wrap"></div>
+
+					<!-- Само окно-->
+			<div id="window">
+						
+						 <!-- Картинка крестика-->
+				<img class="close" onclick="show('none')" src="http://sergey-oganesyan.ru/wp-content/uploads/2014/01/close.png">
+					
+						<!-- Картинка ipad'a-->
+				<p class="text_modal">
+				КАМТЕХАВТОМЕХАНИКА
+				Какой то еще текст про контакты фирмы
+				</p>
+			</div>
+          <button href="#myButton" class="btn btn--reverse btn--space-above" onclick="show('block')">
           <span>Связаться с Нами</span>
-        </a>
+          </button>
                 </div>
   </div>
 </div>        </div>

@@ -3483,6 +3483,46 @@ max-width:640px;
 max-width:64rem;
 line-height:1.2
 }
+
+#wrap{
+		display: none;
+		opacity: 0.8;
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		padding: 16px;
+		background-color: rgba(1, 1, 1, 0.725);
+		z-index: 100;
+		overflow: auto;
+	}
+	
+	#window{
+		width: 400px;
+		height: 400px;
+		margin: 50px auto;
+		display: none;
+		background: #fff;
+		z-index: 200;
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		padding: 16px;
+	}
+	
+	.close{
+		margin-left: 345px;
+		margin-top: 4px;
+		cursor: pointer;
+	}
+.text_modal{
+	font-size: inherit;
+    color: black;
+}
+
 .contact-capsule__info{
 font-size:14px;
 font-size:1.4rem;
@@ -4750,28 +4790,11 @@ animation-delay:1.5s
 	.logo_1 {
 	white-space: nowrap;
 	margin-left: 65px;
-    margin-top: -5px;
+    margin-top: -55px;
     font-size: large;
 	color: #455155;
 	letter-spacing:1px;
 	line-height: 1.1;
-}
-	
-@media screen and (max-width: 1280px) {
-div.logo_1 {width: 1100px;}
-	margin-top: -57px;
-    margin-left: 65px;
-    font-size: 12px;
-    white-space: nowrap;
-    line-height: 1.8;
-}
-@media screen and (max-width: 1024px) {
-div.logo_1 {width: 980px;}
-	margin-top: -57px;
-    margin-left: 65px;
-    font-size: 12px;
-    white-space: nowrap;
-    line-height: 1.8;
 }
 
 }
