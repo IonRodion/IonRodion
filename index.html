@@ -5,6 +5,18 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="styles/main.css">
+  <script type="text/javascript">
+	  function show(state){
+		  document.getElementById('window').style.display = state;
+		  document.getElementById('wrap').style.display = state; 			
+	  }
+	  
+	  function show1(state){
+		  document.getElementById('window1').style.display = state;
+		  document.getElementById('wrap1').style.display = state; 			
+	  }
+	</script>
+ 
  
   <!-- BEGIN SEOmatic rendered SEO Meta -->
 
@@ -1598,37 +1610,25 @@
       	Разработка Проектно-Сметной Документации.
 
       </ul>
-          		<script type="text/javascript">
-
-					//Функция показа
-			function show(state){
-
-					document.getElementById('window').style.display = state;			
-					document.getElementById('wrap').style.display = state; 			
-			}
-			
-		</script>
-					<!-- Задний прозрачный фон-->
-		<div onclick="show('none')" id="wrap"></div>
-
+		<!-- Задний прозрачный фон-->
+		<div onclick="show1('none')" id="wrap1"></div>
 					<!-- Само окно-->
-			<div id="window">
-						
+			<div id="window1">
 						 <!-- Картинка крестика-->
-				<img class="close" onclick="show('none')" src="http://sergey-oganesyan.ru/wp-content/uploads/2014/01/close.png">
-					
+				<img class="close1" onclick="show1('none')" src="http://sergey-oganesyan.ru/wp-content/uploads/2014/01/close.png">
 						<!-- Картинка ipad'a-->
 				<p class="text_modal">
 				КАМТЕХАВТОМЕХАНИКА
 				Какой то еще текст про контакты фирмы
 				</p>
 			</div>
-          <button href="#myButton" class="btn btn--reverse btn--space-above" onclick="show('block')">
+          <button href="#myButton" class="btn btn--reverse btn--space-above" onclick="show1('block')">
           <span>Связаться с Нами</span>
           </button>
-                </div>
-  </div>
-</div>        </div>
+		</div>
+	</div>
+</div>   
+</div>
             
 
               
